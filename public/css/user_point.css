@@ -1,0 +1,49 @@
+body {
+    background-color: #EEEEEE;
+    font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.userBlock {
+    background-color: #ffffff;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.userPic {
+    margin-top: 10px;
+    width: 64px;
+    border-radius: 100%;
+}
+
+.userPoint {
+    font-size: 200%;
+}
+
+.project-x {
+    padding-top: 10px;
+    background-color: #ffffff;
+    border-left: 5px solid #E74C3C;
+    margin-bottom: 15px;
+}
+
+.date {
+    color: #888888;
+    padding-top: 3px;
+    font-size: 80%;
+}
+
+.projPoint {
+    text-align: center;
+    margin-top: 10px;
+    border-left: 1px solid #aaaaaa;
+    font-size: 200%;
+    color: #E74C3C;
+}
+
+.md {
+    font-size: 50%;
+    color: #000000;
+}
+
+

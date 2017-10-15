@@ -1,0 +1,107 @@
+
+body {
+  font-family: "SimHei", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  color: #585858;
+}
+
+.weui-cells,.weui-vcode-btn,.weui-vcode-btn{
+
+  font-size: 14px;!important;
+}
+.tips {
+  font-size: 10px;
+  color: #3CC51F;
+  margin: .5em;
+  text-align: center;
+}
+input[placeholder], [placeholder], *[placeholder] {
+  font-size:12px;
+}
+
+.disabled-color{
+  color:rgba(0, 0, 0, 0.3);!important;
+}
+.query-select{
+  width: 100%;
+  max-height: 5.6em;
+  position: absolute;
+  top: 36px;
+  left: 115px;
+  background-color: #fff;
+  overflow-y: scroll;
+  z-index: 9;
+  box-shadow: -1px 1px 2px -1px #000;
+  padding-left: 5px;
+  display: none;
+}
+.query-select .query-select-list{
+  overflow: hidden;
+}
+
+.query-select-bg{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+}
+
+.weui-media-box__p {
+  color: #999999;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.page__bd_spacing{
+  padding: 40px;
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+a.my-students-btn,input.my-students-btn,button.my-students-btn{
+  padding: 0;
+  width: 80px;
+  text-align: center;
+}
+
+table.striped tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+table.striped tbody tr td,table.striped tbody tr td{
+  border:none;
+}
+
+.volunteer_thumb{
+  width: 28%;
+  margin: 24px auto;
+}
+.volunteer_thumb img,.circular_img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.progress{
+  font-size: 10px;
+  height: 14px;
+}
+.progress .progress-bar{
+  line-height: 14px;
+}
+.weui-slider__handler{
+  left: 0;
+  top: 17px;
+  position: relative;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px
+}
+.progress-bar-success{
+  background-color: #1AAD19;
+}
+
+.text_blue{
+  color: #4789AC !important;
+}

@@ -1,0 +1,174 @@
+@import url(vendor/foundation.min.css);
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+    background-color: #49ACDA
+}
+
+#sign_up {
+    margin-top: 3rem;
+}
+
+#sign_up > div {
+    background-color: #fff;
+}
+
+#sign_up form {
+    padding-top: 30px;
+}
+
+#sign_up form h4 {
+    margin-left: -.625rem;
+    margin-right: -.625rem;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #222;;
+    color: #fff;
+}
+
+#sign_up form input, #sign_up form select {
+    width: 75%;
+    background-color: #eee;
+    border: none;
+    box-shadow: none;
+}
+
+#sign_up form span {
+    width: 22%;
+    height: 2.4375rem;
+    margin-bottom: 16px;
+    padding: 0;
+    background-color: #eee;
+}
+
+#sign_up form span img {
+    padding-top: .2rem;
+}
+
+#sign_up form .button {
+    display: inline-block;
+}
+
+#index {
+    margin-top: 1rem;
+}
+
+#index p {
+    position: relative;
+    margin-bottom: 0;
+    bottom: 1.2rem;
+    text-align: center;
+    font-size: .6rem;
+    color: #fff;
+}
+
+#index img {
+    width: 100%;
+    margin-bottom: -.2rem;
+}
+
+#index img:first-child {
+    border-radius: .4rem .4rem 0 0;
+}
+
+/*# sourceMappingURL=medtech.css.map */
+
+#airclass {
+
+}
+
+#airclass > div {
+    height: 100%;
+    background-color: #fff;
+}
+
+#airclass h4 {
+    padding-top: 22px;
+    font-weight: bold;
+    margin-left: -.625rem;
+    margin-right: -.625rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0.5rem;
+    background-color: #48A5E2;
+    color: #fff;
+}
+
+#airclass h6 {
+    padding: 10px;
+    margin-left: -.625rem;
+    margin-right: -.625rem;
+    margin-bottom: 0rem;
+    padding-bottom: 1.5rem;
+    background-color: #48A5E2;
+    color: #fff;
+}
+
+#airclass p {
+
+}
+
+.bm_sj {
+    margin-top: 1rem;;
+}
+
+.baoming {
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #05587D;
+}
+
+.time {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.baomingfs {
+    margin-top: 2px;
+}
+
+.banji {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    color: #05587D;
+}
+
+.xiangqing {
+    width: 87%;
+    float: left;
+    font-size: 13px;
+    color: #5f5f5f;
+}
+
+.bj a img {
+    width: 8%;
+    float: right;
+    margin-top: -10px;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color .25s ease-out, color .25s ease-out;
+    border-radius: 0;
+    padding: .85em 1em;
+    margin: -11px 1px -1rem;
+    font-size: .9rem;
+    background-color: #2199e8;
+    color: #fff;
+    width: 133px;
+}
+
+.sign_up_mc {
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+

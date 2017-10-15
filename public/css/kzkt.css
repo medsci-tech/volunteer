@@ -1,0 +1,113 @@
+.class_bg {
+    background-color: #10AEFF;
+    color: white;
+    padding: 15px 15px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+h4 small {
+    font-size: 90%;
+    color: #999999
+}
+
+.text-center {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.bm_time {
+    padding-left: 15px
+}
+
+.line {
+    border-top: solid 1px #ddd;
+}
+
+.grids {
+    /* position: relative; */
+
+}
+
+.grid {
+    position: static;
+    float: left;
+    padding: 15px 15px;
+    margin-bottom: 5px;
+    width: 33.33333333%;
+    box-sizing: border-box
+}
+
+.grid_icon {
+    text-align: center;
+    background-color: #10AEFF;
+    height: 80px;
+    border-radius: 5px;
+    margin: 0 auto
+}
+
+.img {
+    margin-top: 10px;
+}
+
+.grid_label {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: -30px
+}
+
+.btn {
+    background-color: #10AEFF;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 2.33333333;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.btn_bj {
+    padding: 5px 15px
+}
+
+.tab_p{
+    color: black
+}
+.tab_p1{
+    color: #2198E8
+}
+.tab_tj{
+    width: 70%;float: left
+}
+.tab_bm{
+    width: 30%;
+    float: right
+}
+.tab_bm div{
+    border-radius: 5px;
+    margin-bottom: 0.77rem;
+    height: 80px;
+    width: 80px;
+    background-color: #10AEFF;
+}
+.tab_bm div p{
+    padding-top: 25px;
+    /* top: 25px; */
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}

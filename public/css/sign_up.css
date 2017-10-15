@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url('fonts/glyphicons-halflings-regular.svg');
+}
+
+.pos {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.form-control {
+    border-color: transparent;
+    font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.form-control:focus + .pos {
+    color: #1abc9c;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.div-position {
+    position: relative;
+    padding-top: 20px;
+}
+
+#login-btn {
+    text-align: center;
+    background-color: #1abc9c;
+}
+
+#login-btn:active {
+    background-color: #117a65;
+}
+
+#login-div {
+    margin: 15px;
+    padding-top: 60px;
+
+}
+
+#login-form {
+    margin: auto;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: 0px solid #bbbbbb;
+    max-width: 360px;
+    padding: 0px 30px 1px 30px;
+
+}
+
+#inputUser, #inputPhone, #inputEmail {
+    padding-left: 40px;
+}
+
+#inputCo {
+    padding-left: 14px;
+    padding-top: 7px;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #0e0e0e;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#cop-select {
+}
+
+.cop-list {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#dropdownMenu1:active {
+    color: #1abc9c;
+}
+
+.cop-list>li:hover {
+    background-color: #1abc9c;
+}

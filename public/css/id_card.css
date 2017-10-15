@@ -1,0 +1,46 @@
+body {
+    font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+small {
+    color: #888888;
+    padding-right: 1em;
+    padding-left: 2em;
+}
+
+.row {
+    max-width: 500px;
+}
+
+.container {
+    position: relative;
+}
+
+.header, .footer {
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+    height: 81%;
+    top: 18%;
+    overflow: auto;
+}
+
+.header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.userPic {
+    border-radius: 100%;
+    width: 30%;
+}
+
+.user-info {
+    margin: 10% 1% 0% 1%;
+}
+
+.h4{
+    font-size: 14px;
+}

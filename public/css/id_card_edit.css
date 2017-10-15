@@ -1,0 +1,31 @@
+body {
+    font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.row {
+    margin: 50px 30px 10px 30px;
+}
+
+.formDiv {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.formIcon {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+.form-control {
+    padding-left: 40px;
+}
+
+.form-control:focus + .formIcon {
+    color: #428bca;
+}
+
+.btn {
+    float:right;
+}
+
