@@ -97,6 +97,7 @@ class WechatController extends Controller
     public function menu() {
         $menuService        = new Menu(env('WX_APPID'), env('WX_SECRET'));
         $buttonActivity     = new MenuItem("空中课堂");
+        $buttonShop         = new MenuItem('积分商城', 'view', 'http://airclass.mime.org.cn/shop');
         $buttonPersonal     = new MenuItem("我的");
 
         $menus = [
@@ -104,9 +105,10 @@ class WechatController extends Controller
                 new MenuItem('项目介绍', 'view', url('/kzkt/index')),
                 new MenuItem('课程表', 'view', url('/kzkt/classdetail')),
                 new MenuItem('报名', 'view', url('/kzkt/signup')),
-                new MenuItem('微商城', 'view', 'http://airclass.mime.org.cn/shop'),
+
                 neW MenuItem('联系客服', 'click','V1002_Custom'),
             ]),
+            $buttonShop,
             $buttonPersonal->buttons([
                 new MenuItem('个人信息', 'view', url('/volunteer/show-self')),
                 new MenuItem('我的二维码', 'view', url('/volunteer/qr_code?role=volunteer')),
