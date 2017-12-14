@@ -105,7 +105,7 @@ class WechatController extends Controller
                 new MenuItem('项目介绍', 'view', url('/kzkt/index')),
                 new MenuItem('课程表', 'view', url('/kzkt/classdetail')),
                 new MenuItem('报名', 'view', url('/kzkt/signup')),
-
+                new MenuItem('问卷调查', 'view', url('https://www.wjx.top/m/19187644.aspx')),
                 neW MenuItem('联系客服', 'click','V1002_Custom'),
             ]),
             $buttonShop,
