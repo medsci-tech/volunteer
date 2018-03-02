@@ -23,7 +23,9 @@ class WechatController extends Controller
             if (in_array($message->Content, $words)) {
                 return Message::make('text')->content("空中课堂，属于基层医生的内分泌代谢病网络课堂，4月1日正式开启。\n\n当“在岗学习”从一个奢侈品，变成了医生职业生涯的必需品
 空中课堂，更像是一所学校，陪伴你的临床成长之旅具有匠人精神的各位老师，为你打磨最好的课程热心的助教，积极的同学，带动你一起快速成长\n\n报名方式：登录网站airclass.mime.org.cn，联系诺和诺德代表协助报名\n\n报名成功后，你可直接在上面的网站学习，或者接听语音电话\n\n请关注官方微信号“空中课堂云课堂”");
-            }
+            }elseif($message->Content == 'coming'){
+				return Message::make('text')->content('敬请期待...');
+			}
             return Message::make('text')->content('您好！');
         });
         $server->on('event', 'CLICK', self::clickEventCallback());
@@ -96,18 +98,18 @@ class WechatController extends Controller
 
     public function menu() {
         $menuService        = new Menu(env('WX_APPID'), env('WX_SECRET'));
-        $buttonActivity     = new MenuItem("空中课堂");
-        $buttonShop         = new MenuItem('积分商城', 'view', 'http://airclass.mime.org.cn/shop');
-        $buttonPersonal     = new MenuItem("我的");
+        $buttonActivity     = new MenuItem("蚂蚁医生",'view', 'http://wechat.mime.org.cn');
+        $buttonShop         = new MenuItem('推荐有奖', 'click', 'coming');
+        $buttonPersonal     = new MenuItem("个人中心",'view', 'http://wechat.mime.org.cn/login');
 
         $menus = [
-            $buttonActivity->buttons([
+            $buttonActivity/*->buttons([
                 new MenuItem('项目介绍', 'view', url('/kzkt/index')),
                 new MenuItem('课程表', 'view', url('/kzkt/classdetail')),
                 new MenuItem('报名', 'view', url('/kzkt/signup')),
                 new MenuItem('问卷调查', 'view', url('https://www.wjx.top/m/19187644.aspx')),
                 neW MenuItem('联系客服', 'click','V1002_Custom'),
-            ]),
+            ])*/,
             $buttonShop,
             $buttonPersonal->buttons([
                 new MenuItem('个人信息', 'view', url('/volunteer/show-self')),
